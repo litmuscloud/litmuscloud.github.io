@@ -146,7 +146,7 @@
   height: 50px;
   padding: 15px;
   border-radius: 4px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Notosanskr webfont', sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -155,7 +155,6 @@
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: #ff4f67;
-  font-family: 'Notosanskr webfont', sans-serif;
 }
 
 .button.mainbutton:hover {
@@ -179,7 +178,7 @@
 }
 
 .heading-2 {
-  font-family: Merriweather, serif;
+  font-family: 'Notosanskr webfont', sans-serif;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
@@ -219,7 +218,7 @@
 
 .heading-4 {
   margin-top: 0px;
-  font-family: Merriweather, serif;
+  font-family: 'Notosanskr webfont', sans-serif;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
@@ -227,6 +226,7 @@
 }
 
 .heading-4.dark {
+  font-family: 'Notosanskr webfont', sans-serif;
   color: #3d454e;
 }
 
@@ -683,6 +683,10 @@
   text-align: center;
 }
 
+.heading-5 {
+  color: #3d454e;
+}
+
 @media (max-width: 991px) {
   .navcontainer {
     padding-right: 0px;
@@ -818,6 +822,10 @@
     margin-right: 2%;
     margin-left: 2%;
   }
+  .heading-5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -905,6 +913,10 @@
   }
   .pricingblock {
     width: 96%;
+  }
+  .heading-5 {
+    font-size: 15px;
+    line-height: 20px;
   }
 }
 

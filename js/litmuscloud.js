@@ -1305,7 +1305,7 @@ Webflow.define('links', module.exports = function ($, _) {
     }
 
     // Ignore empty # links
-    if (href === '#') return;
+    if (href === '#' || href === '') return;
 
     // Determine whether the link should be selected
     var match = tempLink.href === location.href || href === slug || indexPage.test(href) && dirList.test(slug);
